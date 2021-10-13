@@ -1,0 +1,275 @@
+@media (max-width: 1350px){
+    .menu__item+li {
+        margin-left: 15px;
+    }
+    .footer__inner {
+        padding: 96px 150px 103px;
+    }
+    .about__item {
+        right: 200px;
+    }
+}
+
+@media (max-width: 1220px){
+    .menu__item+li {
+        margin-left: 0px;
+    }
+    .about__item {
+        right: 80px;
+    }
+    .footer__inner {
+        padding: 96px 50px 103px;
+    }
+    .innovation {
+        height: 640px;
+    }
+}
+@media (max-width: 1150px){
+    .slider__text{
+        font-size: 18px;
+    }
+    .slider__inner{
+        padding: 90px 0;
+    }
+}
+@media (max-width: 1100px){
+    .header__inner {
+        padding: 0 30px;
+    }
+    .option__box{
+        bottom: 88px;
+    }
+    .about__item {
+        right: 20px;
+    }
+}
+@media (max-width: 1070px){
+    .menu__item {
+        padding: 5px 15px;
+    }
+    .about__item {
+        width: 279px;
+    }
+    .footer__item-form {
+        width: 100%;
+        text-align: left;
+    }
+    .social__list{
+        margin: 0;
+    }
+    .footer__item{
+        margin-bottom: 30px;
+    }
+    .footer__inner {
+        padding: 70px 50px 30px;
+    }
+}
+@media (max-width: 1030px){
+    .option__inner{
+        display: block;
+    }
+    .option__item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 967px){
+    .wellness__inner{
+        padding-top: 190px;
+        &__title{
+            font-size: 52px;
+        }
+    }
+    .menu__btn{
+        display: block;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+    .menu__btn-line{
+        width: 33px;
+        height: 3px;
+        background-color: #000;
+        margin-bottom: 7px;
+        border-radius: 3px;
+        }
+    
+    .mobil__menu-icon{
+        display: block;
+    }
+    .header__inner{
+        position: relative;
+    }
+    .menu{
+        position: absolute;
+        width: 100%;
+        top: 65px;
+        left: 0%;
+        right: 0;
+        &__logo{
+            order: -1;
+        }
+        &__list{
+            
+            background-color: #fff;
+            text-align: center;
+            box-shadow:5px 5px 5px 5px rgba(5, 5, 5, .6);
+        }
+        &__item{
+            display: block;
+            border-bottom: 1px solid #555;
+        }
+    }
+    .menu__list.menu__list-info{
+        display: none;
+    }
+    .menu__list{
+        transform: translateX(-150%);
+    }
+    .menu__list--active{
+        transform: translateX(0%);
+    }
+    .mobil__menu-icon{
+        display: flex;
+        align-items: center;
+        img{
+            margin-left: 10px;
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+        }
+    }
+    .innovation__inner {
+        padding-top: 213px;
+    }
+    .innovation {
+        height: 580px;
+    }
+}
+
+@media (max-width: 830px){
+    .wellness__title{
+        font-size: 48px;
+    }
+   
+    .slider__text{
+        line-height: 22px;
+    }
+}
+@media (max-width: 730px){
+    .slider__text{
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 630px){
+    .slider__inner {
+        padding: 70px 0;
+    }
+    .slider__text {
+        line-height: 24px;
+        height: 170px;
+    }
+    .title{
+        font-size: 34px;
+    }
+}
+@media (max-width: 580px){
+    .title {
+        font-size: 28px;
+    }
+    .products__text {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .innovation__title{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .wellness__subtitle{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .wellness__inner {
+        padding-top: 125px;
+        max-width: 100%;
+        height: 600px;
+    }
+    .option__item{
+        height: 400px;
+    }
+}
+@media (max-width: 530px){
+    .slider__inner {
+        padding: 50px 0;
+    }
+    .slider__text {
+        line-height: 18px;
+    }
+    .social__link {
+        margin: 0px 8px;
+    }
+    .form-footer__input {
+        max-width: 175px;
+    }
+    .form-btn {
+        width: 90px;
+        padding: 12px 0 11px;
+       font-size: 14px;
+    }
+    .wellness__title{
+        padding-bottom: 10px;
+    }
+    .option__item {
+        height: 329px;
+    }
+}
+
+@media (max-width: 480px){
+    .slider__text {
+        line-height: 30px;
+        font-size: 22px;
+    }
+}
+@media (max-width: 430px){
+    .slider__text {
+        line-height: 22px;
+        font-size: 16px;
+        height: 150px;
+    }
+    .footer__inner {
+        padding: 70px 10px 30px;
+        text-align: center;
+    }
+    .footer__item{
+        width: 100%;
+    }
+    .footer__item.footer__item-form {
+        width: 100%;
+        text-align: center;
+    }
+    .social__list {
+        margin: 0 auto;
+    }
+    .header__inner {
+        padding: 0;
+    }
+    .footer__title {
+        padding-bottom: 17px;
+    }
+        
+}
+@media (max-width: 370px){
+    .wellness__inner {
+        padding-top: 85px;
+    }
+    .wellness__title{
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .innovation__inner {
+        padding-top: 170px;
+    }
+}
